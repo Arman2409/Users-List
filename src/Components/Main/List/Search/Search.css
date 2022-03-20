@@ -1,0 +1,92 @@
+.search-div{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    border: 4px solid aquamarine;
+    display: flex;
+}
+
+.search-inputs-div{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input-div{
+    width: 37.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: 1px solid pink;
+}
+
+#search-age-input-div{
+    width: 25%;
+}
+
+.search-input{
+    width: 200px;
+    height: 45px;
+    background-color: thistle;
+    border: 2px solid chocolate;
+    color: chocolate;
+    font-weight: 700;
+    padding: 0 10px;
+    outline: none;
+}
+
+#search-age-input{
+    width: 100px;
+    padding: 0 2px;
+}
+
+.search-input::placeholder{
+   color: teal;
+   font-size: 15px;
+}
+
+#search-age-input::placeholder{
+   font-size: 10px;
+}
+.search-input:focus{
+   background-color: aquamarine;
+   color: teal;
+   border:2px solid teal;
+}
+
+.search-button-div{
+    width: 35%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.search-button{
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: thistle;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid aquamarine;
+    transition: 0.5s;
+}
+
+.search-button:hover{
+    background-color:aquamarine;
+    color: chocolate;
+}
+
+.submit-warning{
+    margin-top: 5px;
+    color: red;
+    margin-left: 15px;
+}
+
+.search-label{
+    font-size: 15px;
+}

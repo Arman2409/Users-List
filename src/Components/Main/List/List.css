@@ -1,0 +1,33 @@
+.list-div{
+    width: 100%;
+    height: 900px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+    font-style: italic;
+    color: teal;
+    margin-bottom: 10px;
+}
+
+.members-list{
+    width: 1000px;
+    height: 460px;
+    border: 5px solid teal;
+    box-shadow: -7px 0px 57px -6px rgba(0,0,0,0.75);
+    background-color: chocolate;
+    position: relative;
+}
+
+.members-display-div{
+  width:100%;
+  height:300px;
+  background-color: thistle;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

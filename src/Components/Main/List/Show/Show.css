@@ -1,0 +1,67 @@
+.show-div{
+   width: 100%;
+   position: relative;
+}
+
+.show-data-div{
+    width: 1000px;
+    height: 610px;
+    border: 4px solid aquamarine;
+    background-color: thistle;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    opacity:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.property-div{
+    width: 100%;
+    height: 25%;
+    border: 1px dashed chocolate;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    display: flex;
+}
+
+.property-p{
+   font-size: 35px;
+   color: chocolate;
+   margin-right: 20px;
+}
+
+.value-p{
+    font-size: 35px;
+    color: teal;
+}
+
+.close-show-div{
+    width: 35px;
+    height: 35px;
+    border: 2px solid teal;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.close-show-div:hover{
+    background-color: teal;
+    border-color: aquamarine;
+}
+
+.close-show-div:hover .close-icon{
+    color: aquamarine;
+}
+
+.close-icon{
+    font-size: 25px;
+    color: teal;
+    transition: 0.5s;
+}
